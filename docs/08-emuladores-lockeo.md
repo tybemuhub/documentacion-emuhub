@@ -1,0 +1,1 @@
+Emuladores y su lockeo
