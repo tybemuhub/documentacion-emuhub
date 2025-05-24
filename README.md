@@ -1,7 +1,7 @@
 # Documentación EMUHUB
 
 ## Índice
-0. [Cronología](docs/00-cronología.md)
+0. [Cronología](docs/00-cronología)
 1. [Hardware](docs/01-hardware.md)
 2. [Proxmox](docs/02-proxmox.md)
 3. [Web](docs/03-web.md)
