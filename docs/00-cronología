@@ -1,126 +1,159 @@
-CRONOLOGÍA DE TFG
+# 🧠 Cronología del TFG
 
-1. HARDWARE RECOMENDADO PARA LOS RECURSOS DEL PROYECTO
-- DISCOS (COMO SE PINCHA UN DISCO EN PROXMOX)
-          CAPRETA DE RED COMPARTIDA COMO STORAGE
-- CUANTOS RECURSOS A CADA MAQUINA y LXC
-- RENDIMIENTO y METRICAS
+Una síntesis visual y técnica del proyecto TFG, desde el hardware y la infraestructura de red hasta la puesta en producción y defensa final. Cada punto resume una fase clave del desarrollo, implementación y securización de un entorno virtualizado autoalojado.
 
-2. PROXMOX
-- VIRTUALIZACION DE SISTEMAS OPERATIVOS
- > Ubuntu 22.04 LTS Jammy Jellyfish
- > SOLO TRABAJAMOS CON REPO OFICIAL UB22.04_LTS
-- VIRTUALIZACION DE CONTENEDORES KVM o LXC
- > SERVICIOS PARA EL PVE:
-   	DUPLICATI (LXC - PVE), BACKUPS --CARPETA DE RED (DISCO DURO HDD SEAGATE)
-   	APACHE GUACAMOLE (LXC - 101), CLIENTE VNC/RDP [proyección de una GUI por navegador] --VNCSERVER
-   	KUMA (LXC - 103), MONITORIZACIÓN, --ESTADO DE SALUD GENERAL DEL PVE
-   	GRAFANA (LXC - 104), TRANSFORMACIÓN DE LOGS, --CONVIERTE DATOS y MÉTRICAS del SISTEMA
-   	PROMETHEUS (LXC - 105), RECOPILACIÓN DE LOGS, --RECOPILA DATOS y MÉTRICAS del SISTEMA
+---
 
-3. MÁQUINAS VIRTUALES
-	> SE INSTALA VNCSERVER ; consultar guía PINGUINO
-	> SE INSTALA xfce ; consultar listadecomandos.txt
-	> SE CONFIGURAN vncservice (puerto 5901{8443}), xstartup
-	> VNCSERVER: ABRE UNA SESIÓN GRÁFICA {PROYECTA EL DISPLAY ESCOGIDO} POR PROTOCOLO VNC + LLAMA A LA GUI FXCE
-	¿Por que? Las VM Ubuntu 22.04 LTS necesitan menos recursos y consumen poco el rendimiento. Con un XFCE (alterado para ser mas liviano) podemos correr emuladores contando con toda la potencia destinada a su ejecución. DISTRIBUCIÓN ADAPTADA - DEPENDENCIAS MÍNIMAS
-	> XSTARTUP: configura la sesion VNC a arrancar: QUE, CUANDO, DURANTE CUANTO TIEMPO
-	> VNCSERICE: arranca el servicio de VNC según las directrices incluidas en XSTARTUP
-	> SE INSTALA UN EMULADOR PARTICULAR
-	> SE BLOQUEA EL CONTROL DEL SISTEMA OPERATIVO SALVO JUGAR AL EMULADOR
-	> SCRIPTING AUTOMATICO PARA: Arrancar emulador, Reboot si !emulador [CRON], Arrancar Vnc
-	> TRANSFERIR JUEGOS // CONFIGURAR EMULADOR
-	> CLONADO --descartar adaptador de RED x NUEVO
+## 1. 🖥️ Hardware recomendado para los recursos del proyecto
 
-4. APACHE GUACAMOLE
-	> SE INSTALA UN LXC --proxmox PVE helper scripts
-	> ADVANCED CONFIG ; elegir privilegios, recursos y contraseñas
-	> DESDE LA INTERFAZ 8080{8443} CONFIGURAR UN USUARIO ADMINISTRADOR
-	> CREAR CONEXIONES ENTRE LA GUACAMOLE y LAS VM EMULADOR {vnc+emulador+xfce --guacd--> https://}
-	> CONFIGURAR USUARIO x EMULADOR, pswd: 12345678
-	> ACCESO POR URL A LAS VM EMULADOR
+- Discos duros: cómo se conectan en Proxmox
+- Carpeta de red compartida como almacenamiento
+- Distribución de recursos por máquina y contenedor (LXC)
+- Métricas de rendimiento y análisis
 
-5. TAILSCALE
-	> CREAR CUENTA
-	> UNIR TODAS LAS MÁQUINAS A LA RED TAILSCALE DE: tybemuhub@gmail.com
+---
 
-			pc
-			tybemuhub@gmail.com
+## 2. 🧩 Proxmox
 
-			100.98.198.121
-			1.82.5
-			Windows 10 22H2
-			Connected
-			Share…
+> Virtualización completa del entorno
 
-			pve
+- Virtualización de sistemas operativos:
+  - Ubuntu 22.04 LTS Jammy Jellyfish
+  - Solo se trabaja con el repositorio oficial UB22.04_LTS
+- Virtualización de contenedores (KVM o LXC)
+- Servicios configurados:
+  - **Duplicati** (LXC - PVE): backups → carpeta de red (HDD Seagate)
+  - **Apache Guacamole** (LXC - 101): cliente VNC/RDP vía navegador
+  - **Kuma** (LXC - 103): estado de salud del sistema
+  - **Grafana** (LXC - 104): visualización de métricas
+  - **Prometheus** (LXC - 105): recopilación de logs
 
-			tybemuhub@gmail.com
+---
 
-			100.88.35.66
-			1.84.0
-			Linux 6.8.12-10-pve
-			9:57 PM CEST
+## 3. 🧪 Máquinas virtuales
 
-	> PROXMOX ACCESIBLE DESDE RED TOMEU {VPN PORTABLE}
-	> tailscaled & y tailscale up ; LOGIN y UNIR DISPOSITIVO A LA RED
+> Entorno de ejecución para emuladores
 
-6.	DOMINIO + CLOUDFLARE
-	> COMPRAR DOMINIO EN CLOUDFLARE: registrador oficial, precio sin intermediarios, precio fijo. 
-	> EMAIL ROUTTING
-	> CONFIGURACIÓN DNS
-	> emuhub.org
-	> APERTURA DE PUERTOS
-	> PERMISOS EN EL ROUTER
-	> 443 INTERNO A SALIDA 8443
-	> UFW EN APACHE GUACAMOLE 101
-	> APACHE PROXY SENCILLO
-	> INCORPORACIÓN DE .htpasswd
-	> BLINDAJE DE SERVICIOS
-	> PRUEBAS DE SQL INYECTION
-	> PENDIENTE: PROVAR UN ATAQUE DDoS
-	> SSH: CERTIFICADOS ORIGINALES
+- Instalación de VNCServer (consultar guía PINGUINO)
+- Instalación de XFCE (liviano, optimizado)
+- Configuración de `vncservice` (puerto 5901/8443), `xstartup`
+- Explicación técnica:
+  - VNCServer proyecta GUI XFCE por protocolo VNC
+  - XFCE adaptado → recursos mínimos, máximo rendimiento
+  - Emuladores ejecutados desde sesión gráfica bloqueada
+- Automatizaciones:
+  - Script de arranque automático
+  - CRON para reboot si falla el emulador
+  - Transferencia de juegos + configuración personalizada
+  - Clonado y gestión de red virtual
 
-7. SERVIDOR LAMP
-	> INSTALAR APACHE2, MARIADB y PHPMYADMIN en LXC GUACAMOLE
-	> ALOJAR RDP + WEB: CENTRALIZAR CONEXIONES ALOJADAS DONDE SE ALOJA TAMBIÉN LA WEB
-	> CONFIGURAR VIRTUALHOST
-	> COPIAR CARPETA /emubase a /espacio
-	> /espacio/ -- DISCO DURO COMPARTIDO POR RED - EXPANSIÓN DEL CONTENEDOR
-	> ACCEDESO RED TOMEU A PHPMYADMIN UNIENDO LA LXC GUACAMOLE A LA RED TAILSCALE
+---
 
-8. PÁGINA WEB
-	> RECICLAJE: mysocialweb.iaw ; PROYECTO DE OOP PARA IMPLEMENTACIÓN DE APLICACIONES WEB
-	> CSS: TOTALMENTE NUEVO
-	> HTML: REESTRUCTURADO y EXTENDIDO
-	> PHP: AÑADIDAS NUEVAS FUNCIONALIDADES
-		a. NUEVO SIGNUP CON PANEL PARA ESCOJER LA FOTO DE PERFIL
-		b. NUEVAS COLUMNAS EN LA TABLA all_users: PROFILE IMG
-		c. NUEVA TABLA all_mssg ; MENSAJERÍA PSEUDO-INSTÁNTANEA --EMUCHAT
-		d. NUEVO MENU DE AMIGOS ; TIMELINE VISITABLE
-		e. NUEVO MENU DE CONSOLAS ; ACCEDE A LAS VM EMULADOR
-		f. NUEVO MENU DESPLEGABLE ; añade enlaces a timeline, about, signup, log out, emuchat, settings
-		g. AHORA SE PUEDE CAMBIAR EL username, correo, foto de perfil, borrar la cuenta.
-		h. REFORZADA LA FUNCIONALIDAD DE change_passwd.php
-	> JAVASCRIPT: INCORPORADO AL PROYECTO CON ANIMACIONES y PEQUEÑOS
+## 4. 🛰️ Apache Guacamole
 
-9. KUMA + PROMETHEUS + GRAFANA
-	> SISTEMA DE MONITORIZACIÓN GENERAL
-	> SISTEMA DE RECOPILACIÓN DE DATOS: ACCESOS, ERRORES, LOGS, MATRICES, etc.
-	> CONVERSIÓN DE DATOS RECOPILADOS -- TRANSFORMADOS EN UNA INTERFAZ LEGIBLE
-	> Recopilamos información sobre nuestro ENTORNO DE VIRTUALIZACIÓN
-	> MANTENER SU ESTADO DE SALUD y ALTA DISPONIBILIDAD
+> Acceso remoto desde navegador, full VNC
 
-10. COPIAS de SEGURIDAD y ALMACENAMIENTO
-	> COPIAS DE SEGURIDAD EN DUPLICATI --drive, /mnt/pbemuhub
-	> /mnt/pbemuhub >> RECURSO COMPARTIDO --HDD SEAGATE PINCHADO EN CASA DE TOMEU
-	> ACCESO TAILSCALE: PVE {duplicati instalado} VE WINDOWS10tUwUmeu
-	> BACKUP DESDE PROXMOX TAMBIÉN
-	> COPIAS EN LA NUBE, COPIAS EN UBICACIÓN FÍSICA, COPIAS y SALVAGUARDAS DE ARCHIVOS EN EL PVE
+- Instalación LXC via scripts helper Proxmox
+- Configuración avanzada de permisos y recursos
+- Usuario administrador desde interfaz 8080/8443
+- Conexión Guacamole ↔ VM emulador (vnc + xfce + guacd → navegador)
+- Usuario por emulador con contraseña (12345678)
+- Acceso remoto URL directo a la VM
 
-11. DEFENSA: 
+---
 
-	> LA FILOSOFÍA SELF-HOSTED
-	> UNA SÍNTESIS DE ASIX
-	> PRUEBA y ERROR
-	> HAZLO CON PRÓPOSITO
+## 5. 🔗 Tailscale
+
+> Red privada virtual portátil (VPN)
+
+- Crear cuenta y unir máquinas a red `tybemuhub@gmail.com`
+- Información de nodos (PC, PVE, etc.)
+- Acceso Proxmox desde cualquier ubicación
+- Comandos esenciales: `tailscaled` + `tailscale up`
+
+---
+
+## 6. 🌐 Dominio + Cloudflare
+
+> Seguridad y visibilidad web del proyecto
+
+- Compra de dominio en Cloudflare (precio justo, sin intermediarios)
+- Email Routing y configuración DNS
+- Dominio: `emuhub.org`
+- Apertura de puertos y permisos en router
+  - Redirección: 443 interno → 8443 externo
+- Seguridad:
+  - UFW en Guacamole 101
+  - Apache Proxy + `.htpasswd`
+  - Blindaje de servicios: pruebas de SQL Injection
+  - *Pendiente*: prueba de ataque DDoS
+  - Certificados SSH
+
+---
+
+## 7. 🧱 Servidor LAMP
+
+> Infraestructura web y base de datos
+
+- Instalación de Apache2, MariaDB y phpMyAdmin en LXC Guacamole
+- Centralización de servicios RDP y web
+- Configuración de VirtualHost
+- Carpeta `/emubase` → `/espacio` (disco compartido)
+- Acceso remoto a phpMyAdmin desde la red Tailscale
+
+---
+
+## 8. 🕸️ Página web
+
+> Proyecto web completamente reciclado, rediseñado y funcional
+
+- Reaprovechamiento del proyecto `mysocialweb.iaw`
+- Reescritura completa:
+  - **CSS**: nuevo, adaptado a estilo CRT
+  - **HTML**: extendido, estructurado
+  - **PHP**: nuevas funcionalidades
+    - Signup con selector de imagen de perfil
+    - Tabla `all_users`: imagen de perfil
+    - Tabla `all_mssg`: mensajería instantánea (Emuchat)
+    - Menús nuevos: amigos, consolas, timeline, etc.
+    - Configuración completa del perfil: cambiar username, correo, foto, contraseña, borrar cuenta
+- JavaScript con animaciones y mejoras visuales
+
+---
+
+## 9. 📊 Kuma + Prometheus + Grafana
+
+> Trilogía de monitorización
+
+- Supervisión completa del entorno
+- Recopilación y análisis de:
+  - Logs
+  - Accesos
+  - Errores
+  - Estado general
+- Representación visual clara del sistema
+
+---
+
+## 10. 💾 Copias de seguridad y almacenamiento
+
+> Redundancia local y remota
+
+- Backups automatizados en **Duplicati**
+  - Guardados en `/mnt/pbemuhub` (HDD en casa de Tomeu)
+- Acceso desde red Tailscale
+- Copias desde el propio Proxmox
+- Copias locales, en la nube y físicas
+
+---
+
+## 11. 🛡️ Defensa del proyecto
+
+> Filosofía, formación y ejecución
+
+- Enfoque **self-hosted**: autonomía total
+- Síntesis formativa de todo ASIX
+- Aprendizaje por iteración: prueba y error
+- Mentalidad: **hazlo con propósito**
+
+---
