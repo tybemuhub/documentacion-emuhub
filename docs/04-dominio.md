@@ -2,7 +2,7 @@
 
 Para que nuestra web fuera accesible desde cualquier lugar, compramos un dominio **.org** llamado **emuhub.org** a través de Cloudflare. Cloudflare nos ofrece la gestión del DNS y otros servicios que hemos aprovechado para simplificar la configuración.
 
-El dominio apunta directamente a nuestra IP pública, que es la que nos proporciona el proveedor de Internet en casa. Esto nos permite que cualquiera pueda acceder a la web simplemente escribiendo emuhub.org en el navegador.
+El dominio apunta directamente a nuestra IP pública, que es la que nos proporciona el proveedor de Internet en casa. Esto nos permite que cualquiera pueda acceder a la web escribiendo emuhub.org:8443, es importante añadir el puerto al final ya que sino no se puede entrar en el navegador.
 
 Para asegurar las conexiones, usamos los certificados SSL que Cloudflare nos facilita de forma automática, así conseguimos que la web funcione con HTTPS sin complicaciones adicionales.
 
