@@ -48,4 +48,4 @@ direcciones IP permitidas editando el archivo:</p>
   ```
 
 <p>Este método es útil si prefieres un control directo sobre las conexiones permitidas. Como alternativa, también puedes realizar esta configuración de forma 
-visual accediendo al panel de control web de Guacamole desde tu navegador, donde podrás añadir usuarios y conexiones fácilmente mediante la interfaz gráfica.</p>
+visual accediendo al panel de control web de Guacamole desde tu navegador, donde podrás añadir usuarios y conexiones mediante la interfaz gráfica. (:8080)</p>
