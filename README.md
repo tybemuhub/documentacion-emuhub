@@ -14,8 +14,8 @@
       <img src="https://img.shields.io/badge/Website-4c9b3f?style=for-the-badge&logo=proxmox&logoColor=white" alt="Website" />
     </a>
     <a href="https://github.com/tybemuhub/documentacion-emuhub/tree/main/docs">
-      <img src="https://img.shields.io/badge/googledocs-0077b5?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Documentation" />
-    </a> 
+      <img src="https://img.shields.io/badge/GoogleDocs-FFD700?style=for-the-badge&logo=readthedocs&logoColor=black" alt="Documentation" />
+    </a>
     <a href="https://github.com/tybemuhub/documentacion-emuhub/tree/main/cli">
       <img src="https://img.shields.io/badge/Guides-0077b5?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Guides" />
     </a> 
