@@ -45,7 +45,7 @@
     </td>
   </tr>
 </table>
-<img src="https://github.com/tybemuhub/documentacion-emuhub/blob/main/img/logoB.png" alt="logo2" height="250px"/>
+<img src="https://github.com/tybemuhub/documentacion-emuhub/blob/main/img/logoB.png" alt="logo2" height="300px"/>
 <table style="font-size:10pt; font-style:italic; color:#666666; border:5px solid black; padding:10px;">
   <tr>
     <td>
