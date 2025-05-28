@@ -1,6 +1,6 @@
 <h1>MÁQUINAS VIRTUALES y CONTENEDORES</h1>
 
-<img src="" alt="entorno pve completo">
+<img src="https://github.com/tybemuhub/documentacion-emuhub/blob/main/img/1.JPG" alt="entorno pve completo">
 
 <h4>
   a. VM ULTRALIGERA UBUNTU 22.04 LTS, PREPARAR LA MÁQUINA PARA QUE NO EXISTAN MÁS DATOS DE LOS NECESARIOS.
