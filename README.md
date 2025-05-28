@@ -20,7 +20,7 @@
       <img src="https://img.shields.io/badge/Screenshots-6A5ACD?style=for-the-badge&logo=google-photos&logoColor=white" alt="Snaps" />
     </a>
     <a href="https://tybemuhub.gitbook.io/emuhub">
-      <img src="https://img.shields.io/badge/TFG-GitBook-blueviolet?style=for-the-badge&logo=gitbook&logoColor=white" alt="TFG GitBook" />
+      <img src="https://img.shields.io/badge/GitBook-red?style=for-the-badge&logo=gitbook&logoColor=white" alt="TFG GitBook" />
     </a>
   </p>
 </div>
