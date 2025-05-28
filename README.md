@@ -45,7 +45,7 @@
     </td>
   </tr>
 </table>
- <img src="https://github.com/tybemuhub/documentacion-emuhub/blob/main/img/baxy.png" alt="Logo EMUHUB" height="500px" />
+ <img src="https://github.com/tybemuhub/documentacion-emuhub/blob/main/img/baxy.png" alt="Logo EMUHUB" />
  
  ---
  Meet Baxy. Our Mascot. Cute as hell
@@ -100,7 +100,7 @@
 <h6>Uptime Kuma displaying PVE's health state and usage</h6>
 
 <br><br>
-<img src="https://github.com/tybemuhub/documentacion-emuhub/blob/main/img/logoB.png" alt="logo2" height="300px"/>
+<img src="https://github.com/tybemuhub/documentacion-emuhub/blob/main/img/logoB.png" alt="logo2"/>
 
 ---
 <h6>Logo B</h6>
