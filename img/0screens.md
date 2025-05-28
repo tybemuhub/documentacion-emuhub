@@ -1,5 +1,5 @@
 <h2>SCREENSHOOTS</h2>
----
+
 #### PVE UP EN FUNCIONAMIENTO
 <img src="https://github.com/tybemuhub/documentacion-emuhub/blob/main/img/1.JPG">
 
@@ -30,4 +30,3 @@
 #### CONJUNTO DE BACKUPS: DUPLICATI > recurso de red E:\
 <img src="" alt="duplicati">
 
----
