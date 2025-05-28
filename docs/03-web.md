@@ -1,6 +1,6 @@
 <h1>WEB</h1>
 
-<h2>ESTÉTICA Y ESTRUCTURA: HTML + CSS </h2>
+<h3>ESTÉTICA Y ESTRUCTURA: HTML + CSS </h3>
 
 <div>
   
@@ -34,7 +34,7 @@
   <img src="https://github.com/tybemuhub/documentacion-emuhub/blob/main/img/about.png">
 </div>
 
-<h2>FUNCIONALIDADES: PHP + JAVASCRIPT</h2>
+<h3>FUNCIONALIDADES: PHP + JAVASCRIPT</h3>
 
 a) Puedes registrar tantos usuarios como desees.
 <br><br>
