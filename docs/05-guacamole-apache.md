@@ -1,22 +1,22 @@
 <h1>APACHE GUACAMOLE</h1>
 
-<h3>FEATURES</h3>
+<h3>FUNCIONALIDADES</h3>
 <h6>
-· Allows to access remote desktop sessions from a web browser. No other software needs to be installed on the client-side.
+· Permite acceder a sesiones de escritorio remoto desde un navegador web. No es necesario instalar ningún software en el cliente.
   <br><br>
-· Supports standard protocols like VNC, RDP, SSH and Kubernetes.
+· Compatible con protocolos estándar como VNC, RDP, SSH y Kubernetes.
   <br><br>
-· VNC sessions can be recorded graphically.
+· Las sesiones VNC pueden grabarse gráficamente.
   <br><br>
-· Has Wake-on-LAN
+· Incluye soporte para Wake-on-LAN.
   <br><br>
-· Easily manage multiple remote desktop sessions with browser GUI (listens :8080)
+· Gestión sencilla de múltiples sesiones de escritorio remoto mediante una interfaz web (escucha en el puerto :8080).
   <br><br>
-· Supports TOTP two-factor authentication.
+· Compatible con verificación en dos pasos (TOTP o 2FA).
   <br><br>
-· Supports clipboard (copy and paste) and file transfer via SFTP.
+· Soporta portapapeles (copiar y pegar) y transferencia de archivos mediante SFTP.
   <br><br>
-· Grant or revoke permissions anytime from the administrator dashboard (:8080)
+· Permite conceder o revocar permisos en cualquier momento desde el panel de administración (:8080).
   <br><br>
 </h6>
 
@@ -25,3 +25,24 @@
   de recursos y espacios. Apache Guacamole puede configurarse tanto desde sus archivos de configuración como desde una interfaz, similar a proxmox, accesible 
   por el navegador. Agregamos usuarios específicos por máquina y conexión ; aunque tuvimos que limitar los accesos a las máquinas a uno concurrente cada una.
 </p>
+
+<h3>INSTALACIÓN</h3>
+
+<p>Inicia sesión en tu servidor con Ubuntu 22.04 e instala los paquetes necesarios como dependencias del sistema. A continuación, descarga la versión estable 
+  más reciente de Apache Guacamole en formato .tar (para el servidor) y el archivo .war correspondiente a la aplicación cliente. Descomprime el archivo .tar y 
+  compílalo ejecutando los siguientes comandos:</p>
+  
+  ```bash
+  sudo make seguido de sudo make install.
+  ```
+
+<p>Una vez completada la instalación, habilita el servicio guacd. Si tienes pensado acceder al entorno Guacamole a través de red, recuerda editar el archivo de
+configuración de direcciones escuchadas para que el servicio esté disponible externamente. Después de esto, puedes configurar manualmente los accesos y 
+direcciones IP permitidas editando el archivo:</p>
+
+  ```bash
+  sudo nano /etc/guacamole/user-mapping.xml
+  ```
+
+<p>Este método es útil si prefieres un control directo sobre las conexiones permitidas. Como alternativa, también puedes realizar esta configuración de forma 
+visual accediendo al panel de control web de Guacamole desde tu navegador, donde podrás añadir usuarios y conexiones fácilmente mediante la interfaz gráfica.</p>
