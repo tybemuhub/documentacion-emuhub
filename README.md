@@ -28,10 +28,12 @@
 <table style="font-size:10pt; font-style:italic; color:#666666; border:5px solid black; padding:10px;">
   <tr>
     <td>
-      *El entorno de virtualización Proxmox para emuladores es un proyecto de fin de curso con fines educativos y personales. No pretende ni busca incentivar la distribución de productos de terceros.
+      <em>
+      El entorno de virtualización Proxmox para emuladores es un proyecto de fin de curso con fines educativos y personales. No pretende ni busca incentivar la distribución de productos de terceros.
       Todo el entorno ha sido diseñado sin ánimo de lucro y desarrollado con un propósito estrictamente académico. Su contenido está dedicado a la investigación y análisis de las tecnologías involucradas,
       con el objetivo de preservar y divulgar la historia y evolución de los videojuegos, tanto a nivel técnico como personal. El uso ilegal de software protegido por derechos de autor no está respaldado
-      bajo ninguna circunstancia. Los emuladores presentados intentan respetar en todo momento la legislación vigente en materia de propiedad intelectual.*
+      bajo ninguna circunstancia. Los emuladores presentados intentan respetar en todo momento la legislación vigente en materia de propiedad intelectual.
+      </em>
     </td>
   </tr>
 </table>
