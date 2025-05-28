@@ -19,8 +19,8 @@
     <a href="https://github.com/tybemuhub/documentacion-emuhub/blob/main/img/0screens.md">
       <img src="https://img.shields.io/badge/Screenshots-6A5ACD?style=for-the-badge&logo=google-photos&logoColor=white" alt="Snaps" />
     </a>
-    <a href="https://github.com/tybemuhub/documentacion-emuhub/blob/main/docs/CR%2CB.%20GA%2CB.%20%20%3B%20%20TFC_emuhub_2nASIX%20(1).pdf">
-      <img src="https://img.shields.io/badge/GitBook-red?style=for-the-badge&logo=gitbook&logoColor=white" alt="TFG GitBook" />
+    <a href="mailto:tybemuhub@gmail.com">
+      <img src="https://img.shields.io/badge/Email-Me-8A2BE2?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
     </a>
   </p>
 </div>
