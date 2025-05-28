@@ -2,10 +2,10 @@
 
 #### MASCOTA DEL PVE
 <div>
-  <img src="https://github.com/tybemuhub/documentacion-emuhub/blob/main/img/">
-  <img src="https://github.com/tybemuhub/documentacion-emuhub/blob/main/img/">
-  <img src="https://github.com/tybemuhub/documentacion-emuhub/blob/main/img/">
-  <img src="https://github.com/tybemuhub/documentacion-emuhub/blob/main/img/">
+  <img src="https://github.com/tybemuhub/documentacion-emuhub/blob/main/img/baxy.png">
+  <img src="https://github.com/tybemuhub/documentacion-emuhub/blob/main/img/baxy_wave.png">
+  <img src="https://github.com/tybemuhub/documentacion-emuhub/blob/main/img/baxy_stand.png">
+  <img src="https://github.com/tybemuhub/documentacion-emuhub/blob/main/img/baxy_right.png">
 </div>
 
 
