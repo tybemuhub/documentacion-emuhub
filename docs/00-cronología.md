@@ -1,7 +1,9 @@
 #Cronología del TFG
 
-Una síntesis visual y técnica del proyecto TFG, desde el hardware y la infraestructura de red hasta la puesta en producción y defensa final. Cada punto resume una fase clave del desarrollo, implementación y securización de un entorno virtualizado autoalojado.
-<img src="" alt="arquitectura">
+<p> Una síntesis visual y técnica del proyecto TFG, desde el hardware y la infraestructura de red hasta la puesta en producción y defensa final. Cada punto resume una fase clave del desarrollo, implementación y securización de un entorno virtualizado autoalojado. </p>
+
+<img src="https://github.com/tybemuhub/documentacion-emuhub/blob/main/img/arch.JPG">
+
 ---
 
 ## 1. Hardware recomendado para los recursos del proyecto
