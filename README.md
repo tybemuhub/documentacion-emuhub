@@ -8,7 +8,7 @@
 
 <div style="border: 2px solid #d1d5db; padding: 20px; border-radius: 8px; background-color: #f9fafb;">
   <h2 align="center">EMUHUB PVE</h2>
-  <p align="center">Proxmox Virtualization Emulator Environment Project</p>
+  <h3 align="center">Proxmox Virtualization Emulator Environment Project</h3>
   <p align="center">
     <a href="https://emuhub.org:8443">
       <img src="https://img.shields.io/badge/Website-4c9b3f?style=for-the-badge&logo=github&logoColor=white" alt="Website" />
@@ -17,7 +17,7 @@
       <img src="https://img.shields.io/badge/Guides-0077b5?style=for-the-badge&logo=read-the-docs&logoColor=white" alt="Guides" />
     </a> 
     <a href="https://emuhub.org:8443">
-      <img src="https://img.shields.io/badge/Changelog-6c5ce7?style=for-the-badge&logo=git&logoColor=white" alt="Changelog" />
+      <img src="https://img.shields.io/badge/Changelog-6c5ce7?style=for-the-badge&logo=html&logoColor=white" alt="Snaps" />
     </a>
   </p>
 </div>
