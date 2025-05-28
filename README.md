@@ -48,8 +48,9 @@
  <img src="https://github.com/tybemuhub/documentacion-emuhub/blob/main/img/baxy.png" alt="Logo EMUHUB" height="500px" />
  
  ---
- This is Baxy. Our Mascot. Cute as hell
+ Meet Baxy. Our Mascot. Cute as hell
 <table style="font-size:10pt; font-style:italic; color:#666666; border:5px solid black; padding:10px;">
+  <br>
   <tr>
     <td>
       <em>
