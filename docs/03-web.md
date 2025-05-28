@@ -19,24 +19,17 @@
   ```
 
   - Redirigir todo el tráfico HTTP (puerto 80) a HTTPS, asegurando seguridad en las comunicaciones.
-  <br>
   - Configurar el servidor para responder en HTTPS (puerto 443) con certificados SSL ubicados en /espacio/emubase/ssl/.
-  <br>
   - Definir /espacio/emubase como la carpeta raíz de la web, donde está alojado todo el contenido estático y dinámico.
-  <br>
   - Permitir overrides con .htaccess para mayor flexibilidad.
-  <br>
   - Proxy inverso para redirigir todas las peticiones que lleguen a /guacamole/ hacia el cliente VNCserver local corriendo en el puerto 8080, incluyendo soporte para WebSocket, imprescindible para la funcionalidad de Guacamole
-  <br>
   - Registro de logs para errores y accesos específicos del sitio.
-  <br>
   - Este VirtualHost permite integrar la web y el acceso remoto VNCserver en un único punto centralizado, facilitando la gestión y el acceso desde internet.
-  <br>
   - Dentro de /espacio/ (directorio de expansión destinado a añadir capacidad al contenedor LXC que gestiona la página web), carpeta /emubase, contiene toda la página web y los certificados SSL necesarios para HTTPS.
-  <br>
   - Aunque no se configuraron reglas específicas de firewall para phpMyAdmin, el acceso a la herramienta está limitado al contenedor Guacamole y a la red interna Tailscale, restringiendo exposición externa directa. Lo protegimos con nuestra contraseña más férrea y un archivo .htpasswd delante.
-  <br><br>
-  </p>
+
+    <br><br>
+    
 <h3>ESTÉTICA Y ESTRUCTURA: HTML + CSS </h3>
 
 <div>
