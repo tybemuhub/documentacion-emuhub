@@ -1,7 +1,7 @@
 <div align="center">
   <p>
     <a href="#">
-      <img src="https://drive.google.com/file/d/1WLnjl2sL-ndQqBV8DWp9G4JGfpIRiW4S/view?usp=sharing](https://github.com/tybemuhub/documentacion-emuhub/blob/main/cPROX.png" alt="Logo EMUHUB" height="100px" />
+      <img src="https://github.com/tybemuhub/documentacion-emuhub/blob/main/cPROX.png" alt="Logo EMUHUB" height="100px" />
     </a>
   </p>
 </div>
