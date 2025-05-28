@@ -26,7 +26,7 @@
   por el navegador. Agregamos usuarios específicos por máquina y conexión ; aunque tuvimos que limitar los accesos a las máquinas a uno concurrente cada una.
 </p>
 
-<h2>¡¡¡IMPORTANTISIMO! INSTALAR IPTABLES O UFW Y CONFIGURAR REGLAS DE FIREWALL ÚTILES!!!
+<h3>¡¡¡IMPORTANTISIMO! INSTALAR IPTABLES O UFW Y CONFIGURAR REGLAS DE FIREWALL ÚTILES!!!</h3>
   
 <h3>INSTALACIÓN</h3>
 
