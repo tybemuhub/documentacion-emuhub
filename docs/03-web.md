@@ -3,6 +3,7 @@
 <h2>ESTÉTICA Y ESTRUCTURA: HTML + CSS </h2>
 
 <div>
+  
   #### MAIN
   <img src="https://github.com/tybemuhub/documentacion-emuhub/blob/main/img/main.png">
   <img src="https://github.com/tybemuhub/documentacion-emuhub/blob/main/img/display_main.png">
