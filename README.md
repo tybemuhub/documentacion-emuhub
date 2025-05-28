@@ -45,7 +45,7 @@
     </td>
   </tr>
 </table>
-<img src="https://github.com/tybemuhub/documentacion-emuhub/blob/main/img/logoB.png" alt="logo2">
+<img src="https://github.com/tybemuhub/documentacion-emuhub/blob/main/img/logoB.png" alt="logo2" height="100px" />
 <table style="font-size:10pt; font-style:italic; color:#666666; border:5px solid black; padding:10px;">
   <tr>
     <td>
@@ -81,12 +81,14 @@
 
 <h6>PVE Working stable while running 6 VM simultaneously</h6>
 
+<br><br>
 <img src="https://github.com/tybemuhub/documentacion-emuhub/blob/main/img/timeline.png" alt="Logo EMUHUB" />
 
 ---
 
 <h6>Feed from your timeline when logged in with your credentials</h6>
 
+<br><br>
 <img src="https://github.com/tybemuhub/documentacion-emuhub/blob/main/img/kuma.png" alt="Logo EMUHUB" />
 
 ---
