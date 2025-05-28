@@ -38,6 +38,22 @@
   </tr>
 </table>
 
+<br><br>
+
+<table style="font-size:10pt; font-style:italic; color:#666666; border:5px solid black; padding:10px;">
+  <tr>
+    <td>
+      <em>
+       EMUHUB is a remote proxmox virtualization environment, specifically tailored for the deployment and management of emulator systems. Developed as a final degree project, this initiative serves both educational
+        and particular purposes, aligning with open-source principles and the self-hosted community ethos. <br><br> EMUHUB is rather a technical synthesis of the academic content covered during the degree than an open-source
+        contribution to the emulation and virtualization communities, but has kept the aim of acknowledging the technical evolution of video games while preserving their heritage. <br><br> The architecture integrates a PVE 
+        node hosting virtual machines and four lightweight containers, focusing on performance, accessibility, and availability, supported with a fully functional web platform that enables user interaction, profile 
+        management, and emulator safe and easy access.
+      </em>
+    </td>
+  </tr>
+</table>
+
 
 ---
 
@@ -51,4 +67,6 @@
   5. [Guacamole + Apache](docs/05-guacamole-apache.md)  
   6. [Máquinas Virtuales](docs/06-maquinas-virtuales.md)  
   7. [Monitorización (Grafana, Kuma, Prometheus)](docs/07-monitorizacion.md)  
+
+
 
