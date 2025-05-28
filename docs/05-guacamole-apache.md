@@ -33,7 +33,10 @@
   compílalo ejecutando los siguientes comandos:</p>
   
   ```bash
-  sudo make seguido de sudo make install.
+  sudo make
+  ```
+  ```bash
+  sudo make install
   ```
 
 <p>Una vez completada la instalación, habilita el servicio guacd. Si tienes pensado acceder al entorno Guacamole a través de red, recuerda editar el archivo de
