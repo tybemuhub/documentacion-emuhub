@@ -74,8 +74,8 @@
   6. [Máquinas Virtuales](docs/06-maquinas-virtuales.md)  
   7. [Monitorización (Grafana, Kuma, Prometheus)](docs/07-monitorizacion.md)
 
-
-<img src="https://github.com/tybemuhub/documentacion-emuhub/blob/main/img/1.JPG" alt="Logo EMUHUB" height="100px" />
+<br><br>
+<img src="https://github.com/tybemuhub/documentacion-emuhub/blob/main/img/1.JPG" alt="Logo EMUHUB" />
 
 ---
 
