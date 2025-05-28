@@ -1,1 +1,0 @@
-vncserver y phpmyadmin
