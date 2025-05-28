@@ -27,8 +27,6 @@
 # Documentación EMUHUB
 <img src="https://github.com/tybemuhub/documentacion-emuhub/blob/main/cPROX.png" alt="Logo EMUHUB" height="100px" />
 
-## Índice
-
 0. [Cronología](docs/00-cronología.md)  
 1. [Hardware](docs/01-hardware.md)  
 2. [Proxmox](docs/02-proxmox.md)  
