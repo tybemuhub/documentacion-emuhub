@@ -16,7 +16,7 @@
     <a href="https://github.com/tybemuhub/documentacion-emuhub/tree/main/docs">
       <img src="https://img.shields.io/badge/Guides-0077b5?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Guides" />
     </a> 
-    <a href="https://emuhub.org/snaps">
+    <a href="https://github.com/tybemuhub/documentacion-emuhub/tree/main/img">
       <img src="https://img.shields.io/badge/Screenshots-6A5ACD?style=for-the-badge&logo=google-photos&logoColor=white" alt="Snaps" />
     </a>
     <a href="https://github.com/tybemuhub/documentacion-emuhub/blob/main/docs/CR%2CB.%20GA%2CB.%20%20%3B%20%20TFC_emuhub_2nASIX%20(1).pdf">
