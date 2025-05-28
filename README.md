@@ -17,7 +17,7 @@
       <img src="https://img.shields.io/badge/Guides-0077b5?style=for-the-badge&logo=read-the-docs&logoColor=white" alt="Guides" />
     </a> 
     <a href="https://emuhub.org:8443">
-      <img src="https://img.shields.io/badge/Changelog-6c5ce7?style=for-the-badge&logo=html&logoColor=white" alt="Snaps" />
+      <img src="https://img.shields.io/badge/Changelog-6c5ce7?style=for-the-badge&logo=imagedotsc&logoColor=white" alt="Snaps" />
     </a>
   </p>
 </div>
