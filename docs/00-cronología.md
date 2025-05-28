@@ -1,10 +1,10 @@
-# 🧠 Cronología del TFG
+#Cronología del TFG
 
 Una síntesis visual y técnica del proyecto TFG, desde el hardware y la infraestructura de red hasta la puesta en producción y defensa final. Cada punto resume una fase clave del desarrollo, implementación y securización de un entorno virtualizado autoalojado.
-
+<img src="" alt="arquitectura">
 ---
 
-## 1. 🖥️ Hardware recomendado para los recursos del proyecto
+## 1. Hardware recomendado para los recursos del proyecto
 
 - Discos duros: cómo se conectan en Proxmox
 - Carpeta de red compartida como almacenamiento
@@ -13,7 +13,7 @@ Una síntesis visual y técnica del proyecto TFG, desde el hardware y la infraes
 
 ---
 
-## 2. 🧩 Proxmox
+## 2. Proxmox
 
 > Virtualización completa del entorno
 
@@ -30,7 +30,7 @@ Una síntesis visual y técnica del proyecto TFG, desde el hardware y la infraes
 
 ---
 
-## 3. 🧪 Máquinas virtuales
+## 3. Máquinas virtuales
 
 > Entorno de ejecución para emuladores
 
@@ -49,7 +49,7 @@ Una síntesis visual y técnica del proyecto TFG, desde el hardware y la infraes
 
 ---
 
-## 4. 🛰️ Apache Guacamole
+## 4. Apache Guacamole
 
 > Acceso remoto desde navegador, full VNC
 
@@ -62,7 +62,7 @@ Una síntesis visual y técnica del proyecto TFG, desde el hardware y la infraes
 
 ---
 
-## 5. 🔗 Tailscale
+## 5. Tailscale
 
 > Red privada virtual portátil (VPN)
 
@@ -73,7 +73,7 @@ Una síntesis visual y técnica del proyecto TFG, desde el hardware y la infraes
 
 ---
 
-## 6. 🌐 Dominio + Cloudflare
+## 6. Dominio + Cloudflare
 
 > Seguridad y visibilidad web del proyecto
 
@@ -91,7 +91,7 @@ Una síntesis visual y técnica del proyecto TFG, desde el hardware y la infraes
 
 ---
 
-## 7. 🧱 Servidor LAMP
+## 7. Servidor LAMP
 
 > Infraestructura web y base de datos
 
@@ -103,7 +103,7 @@ Una síntesis visual y técnica del proyecto TFG, desde el hardware y la infraes
 
 ---
 
-## 8. 🕸️ Página web
+## 8. Página web
 
 > Proyecto web completamente reciclado, rediseñado y funcional
 
@@ -121,7 +121,7 @@ Una síntesis visual y técnica del proyecto TFG, desde el hardware y la infraes
 
 ---
 
-## 9. 📊 Kuma + Prometheus + Grafana
+## 9. Kuma + Prometheus + Grafana
 
 > Trilogía de monitorización
 
@@ -135,7 +135,7 @@ Una síntesis visual y técnica del proyecto TFG, desde el hardware y la infraes
 
 ---
 
-## 10. 💾 Copias de seguridad y almacenamiento
+## 10. Copias de seguridad y almacenamiento
 
 > Redundancia local y remota
 
@@ -147,7 +147,7 @@ Una síntesis visual y técnica del proyecto TFG, desde el hardware y la infraes
 
 ---
 
-## 11. 🛡️ Defensa del proyecto
+## 11. Defensa del proyecto
 
 > Filosofía, formación y ejecución
 
