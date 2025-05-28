@@ -81,5 +81,17 @@
 
 <h6>PVE Working stable while running 6 VM simultaneously</h6>
 
+<img src="https://github.com/tybemuhub/documentacion-emuhub/blob/main/img/timeline.png" alt="Logo EMUHUB" />
+
+---
+
+<h6>Feed from your timeline when logged in with your credentials</h6>
+
+<img src="https://github.com/tybemuhub/documentacion-emuhub/blob/main/img/kuma.png" alt="Logo EMUHUB" />
+
+---
+
+<h6>Uptime Kuma displaying PVE's health state and usage</h6>
+
 
 
