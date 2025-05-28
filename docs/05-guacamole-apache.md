@@ -18,8 +18,8 @@
   <br><br>
 · Grant or revoke permissions anytime from the administrator dashboard (:8080)
   <br><br>
-  
 </h6>
+
 <p>Guacamole puede ser desplegado dentro de LXC y utilizarlo como destino de conexiones remotas y gestionado como pasarela central de acceso remoto. 
   Esta implementación es una práctica mucho más eficiente, segura y escalable, casi obligada; instalar el cliente guacd  en cada VM es un gasto innecesario
   de recursos y espacios. Apache Guacamole puede configurarse tanto desde sus archivos de configuración como desde una interfaz, similar a proxmox, accesible 
