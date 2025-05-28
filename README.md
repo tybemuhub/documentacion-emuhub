@@ -25,6 +25,19 @@
   </p>
 </div>
 
+<div style="font-size:10pt; font-style:italic; color:#666666; border:1px solid #ccc; padding:10px; border-radius:5px;">
+  El entorno de virtualización proxmox para emulador es un proyecto de fin de curso
+  destinado a fines educativos o particulares, no pretende ni busca incentivar la
+  distribución de productos de terceros. Todo el entorno ha sido diseñado sin ánimo de
+  lucro y desarrollado con fines estrictamente académicos,
+  Todo su contenido está dedicado a la investigación y análisis de las
+  tecnologías involucradas, con el objetivo de preservar y recordar la
+  historia y evolución de los videojuegos tanto a nivel técnico como a escala personal.
+  El uso ilegal de software protegido por derechos de autor no está respaldado bajo
+  ninguna circunstancia. Los emuladores aquí presentados tratan de respetar en todo
+  momento la legislación vigente en materia de propiedad intelectual.
+</div>
+
 ---
 
 ### Documentación EMUHUB
