@@ -37,9 +37,6 @@
     </td>
   </tr>
 </table>
-
-<br><br>
-
 <table style="font-size:10pt; font-style:italic; color:#666666; border:5px solid black; padding:10px;">
   <tr>
     <td>
