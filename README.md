@@ -72,7 +72,14 @@
   4. [Dominio](docs/04-dominio.md)  
   5. [Guacamole + Apache](docs/05-guacamole-apache.md)  
   6. [Máquinas Virtuales](docs/06-maquinas-virtuales.md)  
-  7. [Monitorización (Grafana, Kuma, Prometheus)](docs/07-monitorizacion.md)  
+  7. [Monitorización (Grafana, Kuma, Prometheus)](docs/07-monitorizacion.md)
+
+
+<img src="https://github.com/tybemuhub/documentacion-emuhub/blob/main/img/1.JPG" alt="Logo EMUHUB" height="100px" />
+
+---
+
+<h6>PVE Working stable while running 6 VM simultaneously</h6>
 
 
 
