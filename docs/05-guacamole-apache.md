@@ -26,6 +26,8 @@
   por el navegador. Agregamos usuarios específicos por máquina y conexión ; aunque tuvimos que limitar los accesos a las máquinas a uno concurrente cada una.
 </p>
 
+<h2>¡¡¡IMPORTANTISIMO! INSTALAR IPTABLES O UFW Y CONFIGURAR REGLAS DE FIREWALL ÚTILES!!!
+  
 <h3>INSTALACIÓN</h3>
 
 <p>Inicia sesión en tu servidor con Ubuntu 22.04 e instala los paquetes necesarios como dependencias del sistema. A continuación, descarga la versión estable 
