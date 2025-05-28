@@ -3,8 +3,11 @@
 <h3>EL TRIDENTE LAMP</h3>
   <h4>
     · APACHE2
+    <br><br>
     · PHPMYADMIN
+    <br><br>
     · MARIADB
+    <br><br>
   </h4>
 
   <h5>CONFIGURACIÓN EN EL VIRTUALHOST</h5>
