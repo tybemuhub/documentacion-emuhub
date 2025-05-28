@@ -42,13 +42,13 @@
 ---
 
 ### Documentación EMUHUB
-
-0. [Cronología](docs/00-cronología.md)  
-1. [Hardware](docs/01-hardware.md)  
-2. [Proxmox](docs/02-proxmox.md)  
-3. [Web](docs/03-web.md)  
-4. [Dominio](docs/04-dominio.md)  
-5. [Guacamole + Apache](docs/05-guacamole-apache.md)  
-6. [Máquinas Virtuales](docs/06-maquinas-virtuales.md)  
-7. [Monitorización (Grafana, Kuma, Prometheus)](docs/07-monitorizacion.md)  
-
+<h3>
+  0. [Cronología](docs/00-cronología.md)  
+  1. [Hardware](docs/01-hardware.md)  
+  2. [Proxmox](docs/02-proxmox.md)  
+  3. [Web](docs/03-web.md)  
+  4. [Dominio](docs/04-dominio.md)  
+  5. [Guacamole + Apache](docs/05-guacamole-apache.md)  
+  6. [Máquinas Virtuales](docs/06-maquinas-virtuales.md)  
+  7. [Monitorización (Grafana, Kuma, Prometheus)](docs/07-monitorizacion.md)  
+</h3>
