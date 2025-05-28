@@ -25,7 +25,7 @@
   </p>
 </div>
 
-<div style="font-size:10pt; font-style:italic; color:#666666; border:1px solid #ccc; padding:10px; border-radius:5px;">
+<table style="font-size:10pt; font-style:italic; color:#666666; border:1px solid #ccc; padding:10px; border:solid 5px black;">
   El entorno de virtualización proxmox para emulador es un proyecto de fin de curso
   destinado a fines educativos o particulares, no pretende ni busca incentivar la
   distribución de productos de terceros. Todo el entorno ha sido diseñado sin ánimo de
@@ -36,7 +36,7 @@
   El uso ilegal de software protegido por derechos de autor no está respaldado bajo
   ninguna circunstancia. Los emuladores aquí presentados tratan de respetar en todo
   momento la legislación vigente en materia de propiedad intelectual.
-</div>
+</table>
 
 ---
 
