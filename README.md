@@ -37,7 +37,7 @@
     </td>
   </tr>
 </table>
-<img src="https://github.com/tybemuhub/documentacion-emuhub/blob/main/img/Disseny%20sense%20t%C3%ADtol%20(1).png" alt="logo2">
+<img src="https://github.com/tybemuhub/documentacion-emuhub/blob/main/img/logoB.png" alt="logo2">
 <table style="font-size:10pt; font-style:italic; color:#666666; border:5px solid black; padding:10px;">
   <tr>
     <td>
