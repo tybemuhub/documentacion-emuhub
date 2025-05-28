@@ -1,7 +1,7 @@
 <div align="center">
   <p>
     <a href="#">
-      <img src="" alt="Logo EMUHUB" height="100px" />
+      <img src="https://drive.google.com/file/d/1WLnjl2sL-ndQqBV8DWp9G4JGfpIRiW4S/view?usp=sharing" alt="Logo EMUHUB" height="100px" />
     </a>
   </p>
 </div>
@@ -25,7 +25,7 @@
 ---
 
 # Documentación EMUHUB
-
+<img src="" alt="Logo EMUHUB" height="100px" />
 ## Índice
 
 0. [Cronología](docs/00-cronología.md)  
