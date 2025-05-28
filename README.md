@@ -19,8 +19,8 @@
     <a href="https://emuhub.org/snaps">
       <img src="https://img.shields.io/badge/Screenshots-6A5ACD?style=for-the-badge&logo=google-photos&logoColor=white" alt="Snaps" />
     </a>
-    <a href="#">
-      <img src="https://img.shields.io/badge/TFG-Final%20Project-blueviolet?style=for-the-badge&logo=graduation-cap&logoColor=white" alt="TFG" />
+    <a href="https://tybemuhub.gitbook.io/emuhub">
+      <img src="https://img.shields.io/badge/TFG-GitBook-blueviolet?style=for-the-badge&logo=gitbook&logoColor=white" alt="TFG GitBook" />
     </a>
   </p>
 </div>
