@@ -22,11 +22,11 @@
   ```bash
   #!/bin/bash
 
-PROCESS_NAME="desmume"
+PROCESS_NAME="<nombre_del_proceso_emulador>"
 
 if ! pgrep -x "$PROCESS_NAME" > /dev/null
 then
-    echo "$(date): $PROCESS_NAME no está funcionando. Reiniciando el sistema..." >> /var/log/monitor_desmume.log
+    echo "$(date): $PROCESS_NAME no está funcionando. Reiniciando el sistema..." >> /var/log/monitor_emulador.log
     /sbin/reboot
 fi
  ```
