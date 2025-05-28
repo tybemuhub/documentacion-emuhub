@@ -1,4 +1,4 @@
-#Cronología del TFG
+<h1>CRONOLOGÍA</h1>
 
 <p> Una síntesis visual y técnica del proyecto TFG, desde el hardware y la infraestructura de red hasta la puesta en producción y defensa final. Cada punto resume una fase clave del desarrollo, implementación y securización de un entorno virtualizado autoalojado. </p>
 
