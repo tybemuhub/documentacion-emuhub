@@ -1,6 +1,13 @@
 <h2>SCREENSHOOTS</h2>
 
-<hr>
+#### MASCOTA DEL PVE
+<div>
+  <img src="https://github.com/tybemuhub/documentacion-emuhub/blob/main/img/">
+  <img src="https://github.com/tybemuhub/documentacion-emuhub/blob/main/img/">
+  <img src="https://github.com/tybemuhub/documentacion-emuhub/blob/main/img/">
+  <img src="https://github.com/tybemuhub/documentacion-emuhub/blob/main/img/">
+</div>
+
 
 #### ARQUITECTURA DEL ENTORNO DE RED
 <img src="https://github.com/tybemuhub/documentacion-emuhub/blob/main/img/arch.JPG">
