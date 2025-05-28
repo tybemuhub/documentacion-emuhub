@@ -50,8 +50,5 @@
 4. [Dominio](docs/04-dominio.md)  
 5. [Guacamole + Apache](docs/05-guacamole-apache.md)  
 6. [Máquinas Virtuales](docs/06-maquinas-virtuales.md)  
-7. [VNCServer + phpMyAdmin](docs/07-vncserver-phpmyadmin.md)  
-8. [Emuladores + Lockeo](docs/08-emuladores-lockeo.md)  
-9. [Crontab + Scripts](docs/09-crontab-scripts.md)  
-10. [Monitorización (Grafana, Kuma, Prometheus)](docs/10-monitorizacion.md)  
-11. [Duplicati](docs/11-duplicati.md)
+7. [Monitorización (Grafana, Kuma, Prometheus)](docs/07-monitorizacion.md)  
+
