@@ -17,6 +17,7 @@
     sudo nano /etc/apache2/sites-available/emubub.conf
   
   ```
+<br>
 
   - Redirigir todo el tráfico HTTP (puerto 80) a HTTPS, asegurando seguridad en las comunicaciones.
   - Configurar el servidor para responder en HTTPS (puerto 443) con certificados SSL ubicados en /espacio/emubase/ssl/.
@@ -28,7 +29,7 @@
   - Dentro de /espacio/ (directorio de expansión destinado a añadir capacidad al contenedor LXC que gestiona la página web), carpeta /emubase, contiene toda la página web y los certificados SSL necesarios para HTTPS.
   - Aunque no se configuraron reglas específicas de firewall para phpMyAdmin, el acceso a la herramienta está limitado al contenedor Guacamole y a la red interna Tailscale, restringiendo exposición externa directa. Lo protegimos con nuestra contraseña más férrea y un archivo .htpasswd delante.
 
-    <br><br>
+<br>
     
 <h3>ESTÉTICA Y ESTRUCTURA: HTML + CSS </h3>
 
