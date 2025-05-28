@@ -7,7 +7,7 @@
 </div>
 
 <div style="border: 2px solid #d1d5db; padding: 20px; border-radius: 8px; background-color: #f9fafb;">
-  <h2 align="center">EMUHUB PVE</h2>
+  <h1 align="center">EMUHUB PVE</h1>
   <h3 align="center">Proxmox Virtualization Emulator Environment Project</h3>
   <p align="center">
     <a href="https://emuhub.org:8443">
@@ -24,7 +24,7 @@
 
 ---
 
-# Documentación EMUHUB
+### Documentación EMUHUB
 
 0. [Cronología](docs/00-cronología.md)  
 1. [Hardware](docs/01-hardware.md)  
