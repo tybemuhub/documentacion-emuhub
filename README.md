@@ -45,7 +45,7 @@
     </td>
   </tr>
 </table>
-<img src="https://github.com/tybemuhub/documentacion-emuhub/blob/main/img/logoB.png" alt="logo2" height="300px"/>
+ <img src="https://github.com/tybemuhub/documentacion-emuhub/blob/main/baxy.png" alt="Logo EMUHUB" height="200px" />
 <table style="font-size:10pt; font-style:italic; color:#666666; border:5px solid black; padding:10px;">
   <tr>
     <td>
@@ -95,5 +95,8 @@
 
 <h6>Uptime Kuma displaying PVE's health state and usage</h6>
 
+<br><br>
+<img src="https://github.com/tybemuhub/documentacion-emuhub/blob/main/img/logoB.png" alt="logo2" height="300px"/>
 
-
+---
+<h6>Logo B</h6>
