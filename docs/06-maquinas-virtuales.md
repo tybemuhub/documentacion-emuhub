@@ -19,6 +19,7 @@
     > monitor_emulador.sh: SE INSERTA DENTRO DE /usr/local/bin, CRON ejecuta este programa cada minuto para reiniciar la VM si el emulador se hubiese apagado).
     <br><br>
   
+  ```bash
   #!/bin/bash
 
 PROCESS_NAME="desmume"
@@ -28,6 +29,7 @@ then
     echo "$(date): $PROCESS_NAME no está funcionando. Reiniciando el sistema..." >> /var/log/monitor_desmume.log
     /sbin/reboot
 fi
+ ```
 
 </h4>
 
