@@ -14,7 +14,7 @@
       <img src="https://img.shields.io/badge/Website-4c9b3f?style=for-the-badge&logo=proxmox&logoColor=white" alt="Website" />
     </a>
     <a href="https://github.com/tybemuhub/documentacion-emuhub/blob/main/docs/CR%2CB.%20GA%2CB.%20%20%3B%20%20TFC_emuhub_2nASIX%20(1).pdf">
-      <img src="https://img.shields.io/badge/TFG-PDF-red?style=for-the-badge&logo=gitbook&logoColor=white" alt="TFG PDF" />
+      <img src="https://img.shields.io/badge/GitBook-FFCD00?style=for-the-badge&logo=gitbook&logoColor=white" alt="tfg" />
     </a>
     <a href="https://github.com/tybemuhub/documentacion-emuhub/tree/main/cli">
       <img src="https://img.shields.io/badge/Guides-0077b5?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Guides" />
@@ -27,6 +27,11 @@
     </a>
   </p>
 </div>
+
+
+
+
+
 
 <table style="font-size:10pt; font-style:italic; color:#666666; border:5px solid black; padding:10px;">
   <tr>
