@@ -14,18 +14,14 @@
       <img src="https://img.shields.io/badge/Website-4c9b3f?style=for-the-badge&logo=proxmox&logoColor=white" alt="Website" />
     </a>
     <a href="https://github.com/tybemuhub/documentacion-emuhub/tree/main/docs">
-      <img src="https://img.shields.io/badge/Guides-0077b5?style=for-the-badge&logo=read-the-docs&logoColor=white" alt="Guides" />
+      <img src="https://img.shields.io/badge/Guides-0077b5?style=for-the-badge&logo=readthedocs&logoColor=white" alt="Guides" />
     </a> 
-    <a href="https://emuhub.org:8443">
-      <img src="<img src="https://img.shields.io/badge/imagedotsc?style=for-the-badge&logo=imagedotsc&logoColor=white" alt="Snaps" />
+    <a href="https://emuhub.org/snaps">
+      <img src="https://img.shields.io/badge/Screenshots-6A5ACD?style=for-the-badge&logo=google-photos&logoColor=white" alt="Snaps" />
     </a>
-    <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" />
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
-<img src="https://img.shields.io/badge/Bash-121011?style=for-the-badge&logo=gnu-bash&logoColor=white" />
-
+    <a href="#">
+      <img src="https://img.shields.io/badge/TFG-Final%20Project-blueviolet?style=for-the-badge&logo=graduation-cap&logoColor=white" alt="TFG" />
+    </a>
   </p>
 </div>
 
