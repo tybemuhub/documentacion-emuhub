@@ -15,6 +15,20 @@
      Si detectan alguna irregularidad en el emulador, la VM se reinicia, así como sus servicios. Asegurando la 
      disponibilidad a las VM incluso si experimentan alguna interferencia o interrupción.
   <br><br>
+    > launch-emulador.sh: SE INSERTA DENTRO DE /.vnc/xstartup, este programa define como se arrancan las sesiones XFCE (el desktop).
+    > monitor_emulador.sh: SE INSERTA DENTRO DE /usr/local/bin, CRON ejecuta este programa cada minuto para reiniciar la VM si el emulador se hubiese apagado).
+
+      ```bash
+      #!/bin/bash
+      
+      PROCESS_NAME="desmume"
+      
+      if ! pgrep -x "$PROCESS_NAME" > /dev/null
+      then
+          echo "$(date): $PROCESS_NAME no está funcionando. Reiniciando el sistema..." >> /var/log/monitor_desmume.log
+          sudo reboot
+      ```
+
 </h4>
 
 ---
