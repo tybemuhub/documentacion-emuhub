@@ -1,0 +1,28 @@
+TAILSCALE DOCUMENTACIÓN
+
+✅ Requisitos:
+Acceso root o sudo al terminal de Proxmox.
+Conexión a Internet.
+Un navegador disponible (puede ser desde otro dispositivo si es necesario).
+
+*DESDE EL HOST PROXMOX
+apt update && apt upgrade -y
+
+curl -fsSL https://tailscale.com/install.sh | sh
+
+tailscale up
+>>> To authenticate, visit:
+
+        https://login.tailscale.com/a/123456abcdef
+
+*DESDE LA MÁQUINA VISITANTE
+Acceder a la URL y autenticarse
+Descargar el cliente tailscale y autenticarse
+tailscale status
+>>> COMPROBAR SI HA FUNCIONADO
+
+*DESDE EL HOST PROXMOX
+tailscale ip
+
+*DESDE LA MÁQUINA VISITANTE
+acceder a https://<ip_tailscale_borja>:8006 ABRIR EL PUERTO 8006 SI HACE FALTA

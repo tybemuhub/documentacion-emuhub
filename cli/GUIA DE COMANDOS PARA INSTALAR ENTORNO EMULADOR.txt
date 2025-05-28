@@ -1,0 +1,97 @@
+    1  clear
+    2  ip a
+    3  sudo reboot
+    4  clear
+    5  sudo apt update
+    6  sudo apt upgrade
+    7  clear
+    8  sudo apt install snapd
+    9  sudo systemctl enable --now snapd.socket
+   10  sudo snap install snap-store
+   11  sudo apt install build-essential libcairo2-dev libjpeg-turbo8-dev libpng-dev libtool-bin libossp-uuid-dev libvncserver-dev freerdp2-dev libssh2-1-dev libtelnet-dev libwebsockets-dev libpulse-dev libvorbis-dev libwebp-dev libssl-dev libpango1.0-dev libswscale-dev libavcodec-dev libavutil-dev libavformat-dev
+   12  cleart
+   13  clear
+   14  sudo wget https://dlcdn.apache.org/guacamole/1.5.5/source/guacamole-server-1.5.5.tar.gz
+   15  sudo tar -xvf guacamole-server-1.5.5.tar.gz
+   16  clear
+   17  cd guacamole-server-1.5.5/
+   18  ./configure --with-init-dir=/etc/init.d
+   19  sudo make
+   20  sudo make install
+   21  sudo ldconfig
+   22  sudo systemctl daemon-reload
+   23  clear
+   24  sudo systemctl start guacd
+   25  sudo systemctl enable guacd
+   26  systemctl status guacd
+   27  sudo apt install tomcat9 tomcat9-admin tomcat9-common tomcat9-user
+   28  clear
+   29  sudo ss -lnpt | grep java
+   30  sudo wget https://downloads.apache.org/guacamole/1.5.5/binary/guacamole-1.5.5.war
+   31  sudo mv guacamole-1.5.5.war /var/lib/tomcat9/webapps/guacamole.war
+   32  sudo systemctl restart tomcat9 guacd
+   33  sudo mkdir /etc/guacamole/
+   34  cd /etc/guacamole/
+   35  sudo nano /etc/guacamole/guacamole.properties
+   36  sudo nano /etc/guacamole/user-mapping.xml
+   37  sudo systemctl restart tomcat9 guacd
+   38  sudo nano /etc/guacamole/user-mapping.xml
+   39  sudo systemctl restart tomcat9 guacd
+   40  sudo apt install xfce4 xfce4-goodies firefox
+   41  sudo apt install xfce4 xfce4-goodies
+   42  clear
+   43  ip a
+   44  sudo nano /etc/hosts
+   45  sudo apt install tigervnc-standalone-server tigervnc-common tigervnc-viewer -y
+   46  clear
+   47  echo $DISPLAY
+   48  export DISPLAY=:1
+   49  echo $DISPLAY
+   50  vncserver
+   51  sudo nano /etc/guacamole/user-mapping.xml
+   52  sudo systemctl restart tomcat9 guacd
+   53  clear
+   54  nano ~/.vnc/xstartup
+   55  sudo nano /etc/systemd/system/vncserver@.service
+   56  sudo chmod +x ~/.vnc/xstartup
+   57  vncserver -kill :1
+   58  sudo systemctl start vncserver@1.service
+   59  sudo systemctl enable vncserver@1.service
+   60  systemctl status vncserver@1.service
+   61  clear
+   62  sudo apt install apache2
+   63  clear
+   64  sudo a2enmod proxy proxy_http headers proxy_wstunnel
+   65  sudo systemctl restart apache2
+   66  sudo nano /etc/apache2/sites-available/guacamole.conf
+   67  sudo apachectl -t
+   68  sudo a2ensite guacamole.conf
+   69  sudo a2dissite 000-default.conf 
+   70  sudo systemctl restart apache2
+   71  clear
+   72  sudo apt update
+   73  clear
+   74  cd ..
+   75  sudo wget https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+   76  sudo apt install ./google-chrome-stable_current_amd64.deb
+   77  clear
+   78  sudo rm google-chrome-stable_current_amd64.deb 
+   79  sudo apt update && sudo apt install -y libsdl2-2.0-0 libgl1-mesa-glx libasound2 pulseaudio libpng16-16 libzip-dev cmake libgtk-3-0 qt5-qmake qtbase5-dev libsndfile1 libsdl1.2-dev libsdl-image1.2 libmysqlclient-dev libcurl4-openssl-dev libopenal-dev libavcodec-dev libglfw3 libao-dev libenet-dev libboost-all-dev libglew-dev libgtkmm-3.0-dev
+   80  clear
+   81  sudo apt update && sudo apt install -y libsdl2-2.0-0 libasound2 libsndfile1 libzip-dev qt5-qmake qtbase5-dev
+   82  echo $DISPLAY
+   83  clear
+   84  sudo nano ~/.bashrc
+   85  source ~/.bashrc
+   86  sudo apt install mgba-qt
+   87  clear
+   88  vncserver -list
+   89  DISPLAY=:1 mgba-qt
+   90  clear
+   91  DISPLAY=:1 mgba-qt
+   92  ip a
+   93  clear
+   94  cd /home/emucrack/
+   95  ls
+   96  history > listadecomandos.txzt
+   97  history > listadecomandos.txt

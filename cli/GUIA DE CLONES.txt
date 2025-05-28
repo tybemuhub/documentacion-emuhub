@@ -1,0 +1,43 @@
+LA CUESTION ES
+
+ABRES DRIVERS USB
+PINCHAS DISCO
+LO VES?
+CREAS UN VM VACIA
+VAS AL SHELL, CREAS EL SERVICIO:
+
+/etc/systemd/system/mnt-pve-proxmox.mount
+cat:CREAR SERVICIO
+[Install]
+WantedBy=multi-user.target
+
+[Mount]
+Options=defaults
+Type=ext4
+What=/dev/disk/by-uuid/0a342ed1-4268-4eed-91f6-0fc12ab5c789
+Where=/mnt/pve/proxmox
+
+[Unit]
+Description=Mount storage 'proxmox' under /mnt/pve
+
+AHORA TE VAS A STORAGE
+
+cd /etc/pve/storage.cfg
+
+dir: proxmox
+        path /mnt/pve/proxmox
+        content vztmpl,rootdir,iso,images,snippets,backup
+        is_mountpoint 1
+        nodes test1 #NODO CAMBIAR
+
+
+TERMINAL
+systemctl enable --now mnt-pve-proxmox.mount
+
+
+UNA VEZ TERMINES, BORRA TODOS LOS ARCHIVOS RELACIONADOS
+
+VUELVE A STORAGE BORRA EL DIR
+systemctl disable mnt-pve-proxmox.mount
+Y BORRA EL MNT aqui; cd /etc/systemd/system/
+rm mnt-pve-proxmox.mount

@@ -1,0 +1,16 @@
+
+#!/bin/sh
+# Exportar variables de entorno necesarias
+export DISPLAY=:1
+export XDG_SESSION_TYPE=x11
+export DESKTOP_SESSION=xfce
+
+# Cargar las configuraciones de Xresources
+xrdb $HOME/.Xresources
+
+# Iniciar el entorno XFCE
+startxfce4 &
+
+# Prevenir que el script termine sin esperar la ejecución
+while :; do sleep 1; done
+

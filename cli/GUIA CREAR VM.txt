@@ -1,0 +1,53 @@
+GUIA PARA LA CREACIÓN DE UNA VM EMULADOR
+
+1. bash -c "$(curl -fsSL https://raw.githubusercontent.com/community-scripts/ProxmoxVE/main/vm/ubuntu2204-vm.sh)"
+
+ESTE SCRIPT SIRVE PARA CREAR UNA VM 22.04 AUTOMATICAMENTE. ES IMPORTANTE ASEGURARSE QUE VENGA SIN INTERFAZ GRÁFICA.
+
+sudo apt update
+sudo apt install xubuntu-core -y
+sudo apt update
+sudo apt install xfce4 xfce4-goodies
+sudo apt install tigervnc-standalone-server tigervnc-common tigervnc-viewer -y
+apt install xterm -y
+sudo apt install git python3-websockify -y
+git clone https://github.com/novnc/noVNC.git
+
+cd noVNC
+git submodule update --init --recursive
+
+
+VNCPASSWD
+
+
+mkdir -p ~/.vnc
+nano ~/.vnc/xstartup
+
+_________________________________________________
+#!/bin/sh
+# Exportar variables de entorno necesarias
+export XDG_SESSION_TYPE=x11
+export DESKTOP_SESSION=xfce
+
+# Cargar las configuraciones de Xresources
+xrdb $HOME/.Xresources
+
+# Iniciar el entorno XFCE
+startxfce4 &
+
+# Prevenir que el script termine sin esperar la ejecución
+while :; do sleep 1; done
+_________________________________________________
+
+
+
+#!/bin/sh
+export XDG_SESSION_TYPE=x11
+export DESKTOP_SESSION=xfce
+startxfce4 &
+
+chmod +x ~/.vnc/xstartup
+
+
+vncserver :1
+./utils/novnc_proxy --vnc localhost:5901 --listen 6080

@@ -1,0 +1,77 @@
+___________________________
+
+
+
+
+
+__________________________
+
+
+sudo adduser prueba
+sudo usermod -aG sudo prueba
+
+sudo usermod -l emuhub110 emuhub100
+sudo groupmod -n emuhub110 emuhub100
+sudo mv /home/emuhub100 /home/emuhub110
+sudo usermod -d /home/emuhub110 -m emuhub100
+sudo chown emuhub110:emuhub110 /home/emuhub110
+grep emuhub110 /etc/passwd
+sudo reboot
+______________________________
+	
+
+cd ~/.vnc/
+nano xstartup
+
+#!/bin/sh
+
+export DISPLAY=:1
+export XDG_SESSION_TYPE=x11
+export DESKTOP_SESSION=xfce
+
+xrdb $HOME/.Xresources
+
+xfsettingsd &
+xfwm4 &
+
+/usr/local/bin/launch-mgba.sh
+
+while :; do sleep 1; done
+
+______________________________
+
+cd /usr/local/bin
+
+nano launch-mgba.sh
+
+#!/bin/bash
+
+ROM="/home/emuhub100/Descargas/SonicBattle.gba"
+
+/usr/games/mgba-qt --fullscreen "$ROM" &
+
+sleep 1
+
+wmctrl -r "mGBA" -b add,fullscreen
+wmctrl -r "mGBA" -b add,above
+
+______________________________
+
+
+cd etc/systemd/system/
+sudo nano vncservice
+
+______________________________
+
+
+sudo apt remove --purge mgba-qt
+sudo apt autoremove --purge
+sudo apt clean
+
+sudo rm /home/emuhub100/Descargas/*
+
+______________________________
+
+
+sudo visudo
+emuhub100 ALL=(ALL) NOPASSWD: /sbin/reboot
