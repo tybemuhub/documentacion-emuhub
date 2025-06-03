@@ -29,6 +29,9 @@
 </div>
 
 
+### 🎮 EMUHUB PVE · System Overview and Demo
+
+[![Watch the demo](https://img.youtube.com/vi/G6jm0Aw3bhs/hqdefault.jpg)](https://youtu.be/G6jm0Aw3bhs)
 
 
 
