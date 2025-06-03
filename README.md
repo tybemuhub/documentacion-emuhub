@@ -29,12 +29,14 @@
 </div>
 
 
-### 🎮 EMUHUB PVE · System Overview and Demo
 <h3 align="center">🎬 EMUHUB in Action</h3>
 
 <p align="center">
-  <a href="https://youtu.be/G6jm0Aw3bhs" target="_blank">
-    <img src="https://img.youtube.com/vi/G6jm0Aw3bhs/hqdefault.jpg" alt="EMUHUB Demo" width="640">
+  <a href="https://youtu.be/G6jm0Aw3bhs" target="_blank" style="margin-right: 10px;">
+    <img src="https://img.youtube.com/vi/G6jm0Aw3bhs/hqdefault.jpg" alt="EMUHUB Demo 1" width="320">
+  </a>
+  <a href="https://youtu.be/52nt30Z2YQs" target="_blank">
+    <img src="https://img.youtube.com/vi/52nt30Z2YQs/hqdefault.jpg" alt="EMUHUB Demo 2" width="320">
   </a>
 </p>
 
