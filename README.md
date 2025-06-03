@@ -30,10 +30,13 @@
 
 
 ### 🎮 EMUHUB PVE · System Overview and Demo
+<h3 align="center">🎬 EMUHUB in Action</h3>
 
-[![Watch the demo](https://img.youtube.com/vi/G6jm0Aw3bhs/hqdefault.jpg)](https://youtu.be/G6jm0Aw3bhs)
-
-
+<p align="center">
+  <a href="https://youtu.be/G6jm0Aw3bhs" target="_blank">
+    <img src="https://img.youtube.com/vi/G6jm0Aw3bhs/hqdefault.jpg" alt="EMUHUB Demo" width="640">
+  </a>
+</p>
 
 
 <table style="font-size:10pt; font-style:italic; color:#666666; border:5px solid black; padding:10px;">
